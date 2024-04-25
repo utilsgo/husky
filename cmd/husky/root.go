@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 
-	"github.com/go-courier/husky/internal/version"
-	"github.com/go-courier/husky/pkg/husky"
-	"github.com/go-courier/husky/pkg/log"
 	"github.com/spf13/cobra"
+	"github.com/utilsgo/husky/internal/version"
+	"github.com/utilsgo/husky/pkg/husky"
+	"github.com/utilsgo/husky/pkg/log"
 )
 
 var (

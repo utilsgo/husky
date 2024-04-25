@@ -4,8 +4,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/go-courier/husky/pkg/husky"
 	"github.com/spf13/cobra"
+	"github.com/utilsgo/husky/pkg/husky"
 )
 
 func init() {
@@ -16,7 +16,6 @@ var cmdInit = &cobra.Command{
 	Use:   "init",
 	Short: "init git hooks",
 	RunE: func(cmd *cobra.Command, args []string) error {
-
 		githooks, err := husky.ListGithookName(projectRoot)
 		if err != nil {
 			return err

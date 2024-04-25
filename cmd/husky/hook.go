@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/go-courier/husky/pkg/log"
-	"github.com/go-courier/husky/pkg/scripts"
 	"github.com/spf13/cobra"
+	"github.com/utilsgo/husky/pkg/log"
+	"github.com/utilsgo/husky/pkg/scripts"
 )
 
 func init() {

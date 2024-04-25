@@ -4,11 +4,11 @@ import (
 	"context"
 	"os"
 
-	"github.com/go-courier/husky/pkg/scripts"
+	"github.com/utilsgo/husky/pkg/scripts"
 
-	"github.com/go-courier/husky/pkg/log"
-	"github.com/go-courier/husky/pkg/version"
 	"github.com/spf13/cobra"
+	"github.com/utilsgo/husky/pkg/log"
+	"github.com/utilsgo/husky/pkg/version"
 )
 
 var versionOpt = version.VersionOpt{}

@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/go-courier/husky/pkg/conventionalcommit"
 	. "github.com/onsi/gomega"
+	"github.com/utilsgo/husky/pkg/conventionalcommit"
 )
 
 func TestCheckCommitMsg(t *testing.T) {

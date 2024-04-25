@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/go-courier/husky/pkg/conventionalcommit"
+	"github.com/utilsgo/husky/pkg/conventionalcommit"
 	"gopkg.in/yaml.v2"
 )
 

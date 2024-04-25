@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-courier/husky/pkg/log"
+	"github.com/utilsgo/husky/pkg/log"
 
 	"mvdan.cc/sh/v3/interp"
 	"mvdan.cc/sh/v3/syntax"
@@ -18,7 +18,7 @@ func ParesScriptTemplate(s string, data interface{}) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	var buf = bytes.NewBuffer(nil)
+	buf := bytes.NewBuffer(nil)
 	if err := t.Execute(buf, data); err != nil {
 		return "", err
 	}

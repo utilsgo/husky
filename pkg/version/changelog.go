@@ -11,9 +11,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-courier/husky/pkg/husky"
 	"github.com/go-courier/semver"
 	"github.com/pkg/errors"
+	"github.com/utilsgo/husky/pkg/husky"
 )
 
 func ReadOrTouchChangeLogFile() (*os.File, error) {
@@ -42,7 +42,8 @@ func ResolveVersionAndCommits() (*semver.Version, []Commit, error) {
 func UpdateChangeLog(file interface {
 	io.Reader
 	io.Writer
-}, nextVer *semver.Version, fromVersion *semver.Version, sections map[string][]*Commit) error {
+}, nextVer *semver.Version, fromVersion *semver.Version, sections map[string][]*Commit,
+) error {
 	list, err := scanExistsChangelogSection(file)
 	if err != nil {
 		return err
@@ -59,7 +60,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 `)
 
 	baseURI, err := resolveBaseURI()
-
 	if err != nil {
 		return err
 	}

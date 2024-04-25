@@ -3,13 +3,13 @@ package main
 import (
 	"path"
 
-	"github.com/go-courier/husky/cmd/husky/presets"
-	"github.com/go-courier/husky/pkg/husky"
 	"github.com/spf13/cobra"
+	"github.com/utilsgo/husky/cmd/husky/presets"
+	"github.com/utilsgo/husky/pkg/husky"
 )
 
 func init() {
-	var cmdPreset = &cobra.Command{
+	cmdPreset := &cobra.Command{
 		Use:   "preset",
 		Short: "preset for setup",
 	}

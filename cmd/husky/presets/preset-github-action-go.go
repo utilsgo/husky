@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           go-version: '^1.15.0'
-      - run: go install github.com/go-courier/husky
+      - run: go install github.com/utilsgo/husky
       - run: make cover
       - uses: codecov/codecov-action@v1
         with:

@@ -6,9 +6,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/go-courier/husky/pkg/lintcommit"
-	"github.com/go-courier/husky/pkg/lintstaged"
 	"github.com/pelletier/go-toml/v2"
+	"github.com/utilsgo/husky/pkg/lintcommit"
+	"github.com/utilsgo/husky/pkg/lintstaged"
 	"gopkg.in/yaml.v2"
 )
 

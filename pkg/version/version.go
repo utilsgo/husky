@@ -7,11 +7,11 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/go-courier/husky/pkg/log"
 	"github.com/go-logr/logr"
+	"github.com/utilsgo/husky/pkg/log"
 
-	"github.com/go-courier/husky/pkg/conventionalcommit"
 	"github.com/go-courier/semver"
+	"github.com/utilsgo/husky/pkg/conventionalcommit"
 )
 
 type verIncr int
@@ -187,5 +187,4 @@ func (a *VersionAction) Do() error {
 	}
 
 	return GitPushFollowTags(ctx)
-
 }

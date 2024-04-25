@@ -6,10 +6,10 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/go-courier/husky/pkg/log"
+	"github.com/utilsgo/husky/pkg/log"
 
-	"github.com/go-courier/husky/pkg/scripts"
 	"github.com/gobwas/glob"
+	"github.com/utilsgo/husky/pkg/scripts"
 )
 
 type LintStaged map[string][]string

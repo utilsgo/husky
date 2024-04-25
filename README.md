@@ -1,8 +1,8 @@
 # Husky
 
-[![GoDoc Widget](https://godoc.org/github.com/go-courier/husky?status.svg)](https://godoc.org/github.com/go-courier/husky)
+[![GoDoc Widget](https://godoc.org/github.com/utilsgo/husky?status.svg)](https://godoc.org/github.com/utilsgo/husky)
 [![codecov](https://codecov.io/gh/go-courier/husky/branch/master/graph/badge.svg)](https://codecov.io/gh/go-courier/husky)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-courier/husky)](https://goreportcard.com/report/github.com/go-courier/husky)
+[![Go Report Card](https://goreportcard.com/badge/github.com/utilsgo/husky)](https://goreportcard.com/report/github.com/utilsgo/husky)
 
 Husky.js like, but pure in golang
 
@@ -11,7 +11,7 @@ Husky.js like, but pure in golang
 install
 
 ```
-go install github.com/go-courier/husky/cmd/husky@latest
+go install github.com/utilsgo/husky/cmd/husky@latest
 ```
 
 install git hooks
